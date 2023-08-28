@@ -71,7 +71,68 @@ i.fa-brands.fa-youtube {
 i.fa-brands.fa-tiktok {
     color: #000;
 }
+
 /* nav secton close */
+main {
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* banner section */
+.banner {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-title {
+    color: #0B0223;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+h1.banner-name {
+    font-size: 90px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.banner-discription {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.sing-in-btn {
+    padding: 18px 40px;
+    color: #FFF;
+    border-radius: 48px;
+    background: #FF42A5;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.banner-btn {
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 18px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+}
+
+
+
+
+
 
 
 
@@ -79,6 +140,7 @@ i.fa-brands.fa-tiktok {
     .main-nav {
         flex-direction: column;
         margin-bottom: 15px;
+        text-align: center;
     }
 
     .logo {
@@ -90,6 +152,38 @@ i.fa-brands.fa-tiktok {
         flex-wrap: wrap;
         margin-right: 20px;
     }
-    /* nav section close */
 
+    /* nav section close */
+    main {
+        justify-content: center;
+    }
+
+    /* banner section */
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .img-contain-for-banner>img {
+        width: 250px;
+        margin: 0px auto;
+        margin-bottom: 40px;
+    }
+
+    .banner-contain {
+        text-align: center;
+    }
+
+    h1.banner-name {
+        font-size: 45px;
+    }
+    .banner-title{
+        font-size: 20px;
+    }
+    .sing-in-btn{
+        margin-bottom: 30px;
+    }
+    .banner-discription{
+        font-size: 15px;
+    }
+    /* banner section close */
 }
