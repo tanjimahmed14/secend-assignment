@@ -176,14 +176,18 @@ h1.banner-name {
     h1.banner-name {
         font-size: 45px;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 20px;
     }
-    .sing-in-btn{
+
+    .sing-in-btn {
         margin-bottom: 30px;
     }
-    .banner-discription{
+
+    .banner-discription {
         font-size: 15px;
     }
+
     /* banner section close */
 }
