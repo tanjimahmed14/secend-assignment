@@ -199,6 +199,79 @@ section.we-are-gamer-main-section {
 
 
 /* we are gameing section close */
+/* online video game section */
+.video-main-section {
+    margin-top: 100px;
+}
+
+.video-section-discription {
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+
+.video-section-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.pink {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.video-img-main-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.video-img-contain>img {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.img-video-section-discription {
+    color: #534C64;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1.5s;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+}
+
+.layer-top {
+    margin-top: 45%;
+    text-align: center;
+}
+
+.video-img-contain {
+    position: relative;
+}
+
+.video-img-contain:hover .layer {
+    opacity: 1;
+    border-radius: 14px;
+}
+/* video game section and hover section close */
 
 
 
@@ -209,10 +282,7 @@ section.we-are-gamer-main-section {
 
 
 
-
-
-
-
+/* online game video section */
 @media screen and (max-width:576px) {
     .main-nav {
         flex-direction: column;
@@ -290,4 +360,16 @@ section.we-are-gamer-main-section {
     }
 
     /* we are gameing section close */
+    /* video game section */
+    .video-img-main-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .video-section-title {
+        font-size: 22px;
+    }
+    .video-section-discription{
+        font-size: 10px;
+    }
+    /* video game section close */
 }
