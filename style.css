@@ -22,6 +22,10 @@
 
 }
 
+.svg-right {
+    margin-right: 16px;
+}
+
 .logo-name {
     font-size: 45px;
     font-weight: 700;
@@ -90,6 +94,7 @@ main {
     color: #0B0223;
     font-size: 42px;
     font-weight: 600;
+    align-items: center;
 }
 
 h1.banner-name {
@@ -106,6 +111,10 @@ h1.banner-name {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 15px;
+}
+.top{
+    position: relative;
+    top: 6px;
 }
 
 .sing-in-btn {
@@ -129,9 +138,17 @@ h1.banner-name {
     border: 0;
 }
 
+/* banner section close */
 
+/* we are gamer section start */
+section.we-are-gamer-main-section {
+    display: flex;
+}
 
-
+.we-are-gamer-img>img {
+    width: 500px;
+    height: 400px;
+}
 
 
 
