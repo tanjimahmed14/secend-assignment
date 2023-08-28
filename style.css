@@ -271,13 +271,45 @@ section.we-are-gamer-main-section {
     opacity: 1;
     border-radius: 14px;
 }
+
 /* video game section and hover section close */
+/* aniversity section */
+.main-game-contain-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+}
 
+.main-game-contain-discription {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 
+.main-game-aniversity {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 
+.main-game-img>img {
+    width: 550px;
+    height: 580px;
+    margin: 100px 0px 0px 50px;
+}
 
+.main-game-import-img>img {
+    width: 220px;
+}
 
+.main-game-import-img {
+    position: relative;
+    bottom: 150px;
+}
 
+/* anyversity section close */
 
 
 
@@ -368,8 +400,41 @@ section.we-are-gamer-main-section {
     .video-section-title {
         font-size: 22px;
     }
-    .video-section-discription{
+
+    .video-section-discription {
         font-size: 10px;
     }
+
     /* video game section close */
+    /* anyversity section */
+    .main-game-aniversity {
+        flex-direction: column;
+    }
+
+    .main-game-img>img {
+        width: 250px;
+        height: 300px;
+        margin-top: 0px;
+    }
+
+    .main-game-import-img {
+        position: relative;
+        bottom: 100px;
+    }
+
+    .main-game-import-img>img {
+        width: 160px;
+    }
+
+    .main-game-contain-title {
+        text-align: center;
+        font-size: 30px;
+        margin: 70px 0px 20px 0px;
+    }
+
+    .main-game-contain-discription {
+        text-align: center;
+        font-size: 14px;
+        line-height: 23px;
+    }
 }
