@@ -310,6 +310,45 @@ section.we-are-gamer-main-section {
 }
 
 /* anyversity section close */
+/* action icon section */
+.action-main-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+a#action-title {
+    text-decoration: none;
+    color: #0B0223;
+    font-weight: 600;
+    position: relative;
+    bottom: 21px;
+    margin-left: 9px;
+}
+
+.action-img {
+    align-items: center;
+    border-radius: 48px;
+    padding: 5px 3px;
+}
+
+.action-img>img {
+    width: 54px;
+}
+
+.action-img:hover {
+    border: 1px solid #F948B2;
+    transform: scale(1.25);
+    transition: 2s;
+    background-color: #F948B2;
+}
+
+.action-img:hover #action-title {
+    color: #FFF;
+}
+
+
 
 
 
