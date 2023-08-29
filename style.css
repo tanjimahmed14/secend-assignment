@@ -348,7 +348,73 @@ a#action-title {
     color: #FFF;
 }
 
+/* footer section */
+.footer-center-section {
+    padding: 40px 0px 45px 0px;
+}
 
+.footer-center-section ul {
+    display: inline-flex;
+}
+
+.footer-center-section ul li {
+    list-style: none;
+    margin-right: 34px;
+}
+
+.footer-center-section ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer {
+    background: #0B0223;
+}
+
+.foot-icon-center {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.foot-main-section-center {
+    text-align: center;
+}
+
+.foot-icon-center {
+    text-align: center;
+}
+
+a.foot-gamer-section {
+    font-size: 45px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+.foot-title-section-center {
+    padding-top: 100px;
+}
+
+.foot-proxy-setting-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.foot-proxy-info {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.action {
+    margin-bottom: 50px;
+}
 
 
 
@@ -475,5 +541,56 @@ a#action-title {
         text-align: center;
         font-size: 14px;
         line-height: 23px;
+    }
+
+    /* video game section close */
+    /* action game section */
+    .action-main-icon {
+        flex-direction: column;
+    }
+
+    /* action game sec */
+
+    /* footer section */
+    .footer-center-section ul {
+        flex-wrap: wrap;
+        width: 258px;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    a.foot-gamer-section {
+        font-size: 20px;
+    }
+
+    svg.small {
+        width: 45px;
+        position: relative;
+        top: 12px;
+    }
+
+    .footer-center-section ul li a {
+        font-size: 12px;
+
+    }
+
+    .footer-center-section ul li {
+        margin-right: 10px;
+    }
+
+    .foot-icon-center {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .foot-proxy-setting-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: 10px;
+        gap: 15px;
+    }
+
+    .foot-proxy-info {
+        font-size: 10px;
     }
 }
